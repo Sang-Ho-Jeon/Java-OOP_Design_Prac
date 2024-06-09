@@ -20,3 +20,4 @@
 
 ### draw.io 설계 과제 링크
 https://drive.google.com/file/d/1FIjiJ8JwwnDFjfcJBkC76eE7uBlWYbXb/view?usp=sharing
+![image](https://github.com/Sang-Ho-Jeon/KDT_DBE1_Java-OOP_Assignment/assets/67211899/97217013-9f19-4b38-b494-bcb7fe8743d5)
