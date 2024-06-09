@@ -14,10 +14,11 @@ public class Main {
                 throw new InputMismatchException();
             }
         } catch (InputMismatchException e) {
-            e.printStackTrace();
-            throw new InputMismatchException();
+            System.out.println("다시입력해주세요");
+            numOfParticipants = inputNumOfParticipants();
+        } finally {
+            return numOfParticipants;
         }
-        return numOfParticipants;
     }
 
     public static void main(String[] args) {
