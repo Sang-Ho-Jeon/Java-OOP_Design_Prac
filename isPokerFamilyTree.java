@@ -1,9 +1,9 @@
-public class isPokerFamilyTree {
+public class PokerFamilyTreeEvaluator {
     private int[] valueCount = new int[Card.VALUE_MAX];
     private int[] kindCount = new int[Card.KIND_MAX];
     private Card[] cards;
 
-    isPokerFamilyTree(Card[] cards) {
+    PokerFamilyTreeEvaluator(Card[] cards) {
         this.cards = cards;
         for (int i = 0; i < cards.length; i++) {
             int valueIdx = cards[i].getValue().ordinal();
