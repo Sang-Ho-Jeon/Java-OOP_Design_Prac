@@ -32,7 +32,7 @@ public class Dealer {
     }
     void recordScoreTable(Game game) {
         for (int i = 0; i < players.length; i++) {
-            isPokerFamilyTree pft = new isPokerFamilyTree(players[i].getCards());
+            PokerFamilyTreeEvaluator pft = new PokerFamilyTreeEvaluator(players[i].getCards());
             game.recordScore(players[i].getNickname(), pft.getPokerFamilyTree());
         }
     }
